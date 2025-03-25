@@ -1,0 +1,57 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+.btn-primary:hover {
+  background-color: #1991db;
+  border-color: #1991db;
+}
+
+h1 {
+  color: #1DA1F2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  color: #657786;
+}
+
+.form-control:focus {
+  border-color: #1DA1F2;
+  box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .lead {
+    font-size: 1.1rem;
+  }
+} 
